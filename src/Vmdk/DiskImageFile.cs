@@ -587,7 +587,7 @@ namespace DiscUtils.Vmdk
             baseDescriptor.ContentId = (uint)_rng.Next();
             baseDescriptor.CreateType = createType;
             baseDescriptor.UniqueId = Guid.NewGuid();
-            baseDescriptor.HardwareVersion = "4";
+            baseDescriptor.HardwareVersion = "12";
             baseDescriptor.AdapterType = adapterType;
             return baseDescriptor;
         }
